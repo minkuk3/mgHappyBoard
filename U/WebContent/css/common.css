@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+*{box-sizing: border-box;}
+
+html{margin: 0; padding: 0; width: 100%; height: 100%;}
+body{margin: 0; padding: 0; width: 100%; height: 100%;}
+
+h1, h2, h3, h4, h5, p{ margin: 0; padding: 0;}
+
+ul{list-style: none; margin: 0; padding: 0;}
+li{float: left;margin: 0 1%;}
+a{text-decoration: none; color: #000;}
+
+header{width: 100%; height: 10%;background: aliceblue;display: flex;justify-content: center;align-items: center;}
+nav{width: 100%;height: 24px;background: khaki;}
+.wrap_template{width: 100%; height: 80%;}
+
+.carTable_wrap{ width: 100%;}
+.carTable_wrap table{width: 100%; border: 1px solid;}
+.carTable_wrap table th{border: 1px solid;}
+.carTable_wrap table td{border: 1px solid; text-align: center;}
+.carList_btnBox{float: right; margin-top: 10px;}
+.carList_btnBox .carBtn{cursor: pointer;border-radius: 23px;background: cadetblue;border: none;text-align: center;vertical-align: middle;color: #fff;width: 100px;height: 24px;}
+
+.compantWrite_Box{ margin-bottom: 10px;}
+
+footer{width: 100%; height: 10%;background: antiquewhite;display: flex;justify-content: center;align-items: center;}

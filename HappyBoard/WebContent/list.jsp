@@ -1,8 +1,7 @@
 <%@page import="kr.co.happy.BoardVO"%>
 <%@page import="java.util.ArrayList"%>
 <%
-	ArrayList<BoardVO> list = (ArrayList<BoardVO>) request
-			.getAttribute("list");
+	ArrayList<BoardVO> list = (ArrayList<BoardVO>) request.getAttribute("list");
 %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>

@@ -7,12 +7,11 @@ import java.util.ArrayList;
 
 public class BoardDAO {
 
-	private static BoardDAO dao;
+	private static BoardDAO dao; //객체 생성
 
-	private BoardDAO() {
-	}
+	private BoardDAO() {}	// 기본생성자
 
-	public static BoardDAO getInstance() {
+	public static BoardDAO getInstance() { //싱글톤 (하나로 돌려쓸려고)
 		if (dao == null) {
 			dao = new BoardDAO();
 		}
